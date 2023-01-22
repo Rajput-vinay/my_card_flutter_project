@@ -1,0 +1,54 @@
+name: testing_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+     - images/
+
+
+
+  fonts:
+    - family: SofiaSans
+      fonts:
+        - asset: fonts/SofiaSans-BlackItalic.ttf
+
+
+    - family: SofiaSans1
+      fonts:
+        - asset: fonts/SofiaSans-Light.ttf
+
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
+
+
+
